@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="CSS/style.css">
 <style>
     /* css reset */
     body{
+        font-family: 'Roboto', sans-serif;
         color:aliceblue;
         margin: 0px;
         padding: 0px;
@@ -24,8 +28,11 @@
     }
     .left img{
         width: 200px;
-
     }
+    .left div{
+        font-size: 18px;
+        line-height: 0px;
+        text-align: center;}
     .mid{
         display: block;
         width: 33%;
@@ -44,7 +51,7 @@
     }
     .navbar li{
         display: inline-block;
-        font-size: 16px;
+        font-size: 16px; 
     }
     .navbar li a{
         color: white;
@@ -55,9 +62,40 @@
         text-decoration: underline;
         color: grey;
     }
+    .btn{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 9px;
+        background-color:black ;
+        color: white;
+        padding: 2px 14px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: rgb(15, 15, 15);
+    }
+    .container{
+    border: 2px solid green;
+    margin: 71px 5px;
+    padding: 45px 126px;
+    width: 45%;
+    border-radius: 12px;
+    }
+    .form-group input{
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 3px auto;
+    }
 </style>
-<body>
-    <header class="header"></header>
+<body> 
+    <header class="header">
         <!-- for left -->
         <div class="left">
             <img src="Untitled design (86).png" alt="">   
@@ -74,7 +112,24 @@
         </div>
         <!-- for buttons -->
         <div class="right">
-bottom
+           <button class="btn">Call us now</button>
+           <button class="btn">Email us</button> 
         </div>
+    </header>
+    <div class="container">
+        <h1>
+            JOIN THE  BEST GYM OF GORAKHOUR NOW
+        </h1>
+        <form action ="noaction.php">
+          <div class="form-group">
+              <input type="text" name=""placeholder="Enter Your name=">
+          <div class="form-group">
+               <input type="text" name=""placeholder="Enter Your name=">
+           <div class="form-group">
+              <input type="text" name=""placeholder="Enter Your name=">
+          </div>
+          <button class="btn">Submit</button> 
+        </form>
+    </div>
 </body>
 </html>

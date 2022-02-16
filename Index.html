@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,59 +13,71 @@
 <link rel="stylesheet" href="CSS/style.css">
 <style>
     /* css reset */
-    body{
+    body {
         font-family: 'Roboto', sans-serif;
-        color:aliceblue;
+        color: aliceblue;
         margin: 0px;
         padding: 0px;
         background: url('adult-g77eeac75a_1920.jpg');
     }
-    .left{
+
+    .left {
         /* border: 2px solid red; */
         display: inline-block;
         position: absolute;
-        left:34px;
-        top: 20px; 
+        left: 34px;
+        top: 20px;
     }
-    .left img{
+
+    .left img {
         width: 173px;
-    margin: -15px
+        margin: -15px
     }
-    .left div{
+
+    .left div {
         font-size: 18px;
         line-height: 0px;
-        text-align: center;}
-    .mid{
+        text-align: center;
+    }
+
+    .mid {
         display: block;
-    width: 37%;
-    margin: 26px 474px;
+        width: 37%;
+        margin: 26px 474px;
         /* border: 2px solid rgb(171, 216, 100); */
     }
-    .right{
+
+    .right {
         position: absolute;
-    right: 36px;
-    top: 29px;
-    display: inline-block;
-    /* border: 2px solid rgb(255, 255, 255); */
+        right: 36px;
+        top: 29px;
+        display: inline-block;
+        /* border: 2px solid rgb(255, 255, 255); */
     }
-    .navbar{
+
+    .navbar {
         display: inline-block;
     }
-    .navbar li{
+
+    .navbar li {
         display: inline-block;
-        font-size: 18px; 
+        font-size: 18px;
     }
-    .navbar li a{
+
+    .navbar li a {
         color: white;
         text-decoration: none;
         padding: 30px 20px;
     }
-    .navbar li a:hover,.navbar li a:active{
+
+    .navbar li a:hover,
+    .navbar li a:active {
         text-decoration: underline;
         color: grey;
     }
-    .btn{
-            font-family: 'Roboto', sans-serif;
+
+    .btn {
+        font-family: 'Roboto', sans-serif;
         margin: 0px 9px;
         background-color: #ffffff;
         color: #1e252d;
@@ -75,17 +88,20 @@
         cursor: pointer;
 
     }
-    .btn:hover{
+
+    .btn:hover {
         background-color: rgb(15, 15, 15);
     }
-    .container{
-            border: 2px solid rgb(252, 252, 252);
+
+    .container {
+        border: 2px solid rgb(252, 252, 252);
         margin: 86px 8px;
         padding: 44px 37px;
         width: 45%;
         border-radius: 12px;
     }
-    .form-group input{
+
+    .form-group input {
         font-size: 15px;
         text-align: center;
         display: block;
@@ -96,24 +112,27 @@
         border-radius: 12px;
         font-family: 'Roboto', sans-serif;
     }
-    .container h1{
+
+    .container h1 {
         font-size: 26px;
         text-align: center;
 
     }
-    .container button{
+
+    .container button {
         display: block;
-    width: 155px;
-    margin: 6px auto;
+        width: 155px;
+        margin: 6px auto;
 
     }
 </style>
-<body> 
+
+<body>
     <header class="header">
         <!-- for left -->
         <div class="left">
-            <img src="Untitled design (86).png" alt="">   
-            <div>NIK Fitness</div>         
+            <img src="Untitled design (86).png" alt="">
+            <div>NIK Fitness</div>
         </div>
         <!-- for mid content -->
         <div class="mid">
@@ -126,24 +145,25 @@
         </div>
         <!-- for buttons -->
         <div class="right">
-           <button class="btn">Call us now</button>
-           <button class="btn">Email us</button> 
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
         </div>
     </header>
     <div class="container">
         <h1>
-            JOIN THE  BEST GYM OF GORAKHOUR NOW
+            JOIN THE BEST GYM OF GORAKHOUR NOW
         </h1>
-        <form action ="noaction.php">
-          <div class="form-group">
-              <input type="text" name=""placeholder="Enter Your name">
-          <div class="form-group">
-               <input type="text" name=""placeholder="Enter Your age">
-           <div class="form-group">
-              <input type="text" name=""placeholder="Enter Your gender">
-          </div>
-          <button class="btn">Submit</button> 
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your name">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your age">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your gender">
+                    </div>
+                    <button class="btn">Submit</button>
         </form>
     </div>
 </body>
+
 </html>

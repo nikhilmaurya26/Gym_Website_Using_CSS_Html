@@ -20,14 +20,15 @@
         background: url('adult-g77eeac75a_1920.jpg');
     }
     .left{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: inline-block;
         position: absolute;
         left:34px;
         top: 20px; 
     }
     .left img{
-        width: 200px;
+        width: 173px;
+    margin: -15px
     }
     .left div{
         font-size: 18px;
@@ -35,23 +36,23 @@
         text-align: center;}
     .mid{
         display: block;
-        width: 33%;
-        margin: 20px auto;
-        border: 2px solid rgb(171, 216, 100);
+    width: 37%;
+    margin: 26px 474px;
+        /* border: 2px solid rgb(171, 216, 100); */
     }
     .right{
         position: absolute;
-        right: 34px;
-        top: 20px;
-        display: inline-block;
-        border: 2px solid rgb(255, 255, 255);
+    right: 36px;
+    top: 29px;
+    display: inline-block;
+    /* border: 2px solid rgb(255, 255, 255); */
     }
     .navbar{
         display: inline-block;
     }
     .navbar li{
         display: inline-block;
-        font-size: 16px; 
+        font-size: 18px; 
     }
     .navbar li a{
         color: white;
@@ -63,14 +64,14 @@
         color: grey;
     }
     .btn{
-        font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
         margin: 0px 9px;
-        background-color:black ;
-        color: white;
+        background-color: #ffffff;
+        color: #1e252d;
         padding: 2px 14px;
-        border: 2px solid grey;
+        border: 2px solid black;
         border-radius: 8px;
-        font-size: 20px;
+        font-size: 16px;
         cursor: pointer;
 
     }
@@ -78,20 +79,33 @@
         background-color: rgb(15, 15, 15);
     }
     .container{
-    border: 2px solid green;
-    margin: 71px 5px;
-    padding: 45px 126px;
-    width: 45%;
-    border-radius: 12px;
+            border: 2px solid rgb(252, 252, 252);
+        margin: 86px 8px;
+        padding: 44px 37px;
+        width: 45%;
+        border-radius: 12px;
     }
     .form-group input{
-        font-size: 14px;
+        font-size: 15px;
         text-align: center;
         display: block;
         width: 500px;
-        padding: 6px;
+        padding: 4px;
         border: 2px solid black;
         margin: 3px auto;
+        border-radius: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container h1{
+        font-size: 26px;
+        text-align: center;
+
+    }
+    .container button{
+        display: block;
+    width: 155px;
+    margin: 6px auto;
+
     }
 </style>
 <body> 
@@ -122,11 +136,11 @@
         </h1>
         <form action ="noaction.php">
           <div class="form-group">
-              <input type="text" name=""placeholder="Enter Your name=">
+              <input type="text" name=""placeholder="Enter Your name">
           <div class="form-group">
-               <input type="text" name=""placeholder="Enter Your name=">
+               <input type="text" name=""placeholder="Enter Your age">
            <div class="form-group">
-              <input type="text" name=""placeholder="Enter Your name=">
+              <input type="text" name=""placeholder="Enter Your gender">
           </div>
           <button class="btn">Submit</button> 
         </form>
